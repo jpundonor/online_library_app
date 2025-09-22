@@ -3,19 +3,49 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav"
-    app:startDestination="@id/list2">
+    app:startDestination="@id/home">
+
     <fragment
-        android:id="@+id/list2"
+        android:id="@+id/home"
+        android:name="cl.unab.libreriaonline.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/list"
         android:name="cl.unab.libreriaonline.List"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
-            android:id="@+id/action_list2_to_details"
+            android:id="@+id/action_list_to_details"
             app:destination="@id/details" />
     </fragment>
     <fragment
         android:id="@+id/details"
         android:name="cl.unab.libreriaonline.Details"
         android:label="fragment_details"
-        tools:layout="@layout/fragment_details" />
+        tools:layout="@layout/fragment_details">
+        <argument
+            android:name="title"
+            app:argType="String"
+            />
+        <argument
+            android:name="details"
+            app:argType="String"
+            />
+        <argument
+            android:name="img"
+            app:argType="String"
+            />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/credits"
+        android:name="cl.unab.libreriaonline.Credits"
+        android:label="fragment_credits"
+        tools:layout="@layout/fragment_credits" >
+    </fragment>
+
 </navigation>

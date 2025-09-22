@@ -34,18 +34,21 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottom_navigation);
         NavigationUI.setupWithNavController(bottomNavigationView, navController);
 
-        /*
+
         bottomNavigationView.setOnItemSelectedListener(item -> {
             int id = item.getItemId();
-            if(id == R.id.home){
-                navController.popBackStack(R.id.favorite, false);
+            if(id == R.id.list){
+                navController.navigate(R.id.list);
                 return true;
-            } else if (id == R.id.music) {
-                navController.navigate(R.id.music);
+            }
+            else if (id == R.id.home) {
+                navController.navigate(R.id.home);
+                return true;
+            } else if (id == R.id.credits) {
+                navController.navigate(R.id.credits);
                 return true;
             }
             return false;
         });
-         */
     }
 }
