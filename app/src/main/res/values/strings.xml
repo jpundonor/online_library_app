@@ -3,6 +3,32 @@
     <string name="home">Inicio</string>
     <string name="list">Listado</string>
     <string name="credits">Creditos</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="resplandor_short_description">El Resplandor es una novela de Stephen King que sigue a Jack Torrance,
+        un hombre que acepta un trabajo como vigilante de invierno en un hotel aislado.
+        A medida que el aislamiento y fuerzas oscuras afectan su mente, su familia corre peligro.
+    </string>
+    <string name="resplandor_long_description">En El Resplandor, Jack Torrance, un escritor en rehabilitación,
+        acepta un trabajo como cuidador de invierno en el Hotel Overlook.
+        Aislado con su familia en las montañas, fuerzas sobrenaturales comienzan a destruir su mente,
+        desatando una espiral de locura que amenaza la vida de su esposa e hijo, quienes también poseen habilidades psíquicas.
+    </string>
+
+
+    <string name="niebla_short_description">La niebla de Stephen King narra cómo una ciudad es envuelta por una niebla sobrenatural llena de criaturas mortales.
+        Un grupo atrapado en un supermercado lucha por sobrevivir.
+    </string>
+    <string name="niebla_long_description">La niebla es una novela de Stephen King
+        en la que un extraño fenómeno de niebla cubre una pequeña ciudad, ocultando monstruos aterradores.
+        Un grupo de personas atrapadas en un supermercado lucha por sobrevivir, mientras el miedo y la paranoia crecen.
+    </string>
+
+
+    <string name="misery_short_description">Misery cuenta la historia de un escritor que,
+        tras un accidente, es secuestrado por su fan más peligrosa, quien lo obliga a escribir su próxima novela bajo amenazas.
+    </string>
+    <string name="misery_long_description">Misery cuenta la historia de Paul Sheldon,
+        un escritor que sufre un accidente de auto y es rescatado por Annie Wilkes, una fanática de sus libros.
+        Sin embargo, Annie tiene un lado oscuro y mantiene a Paul cautivo, forzándolo a escribir su próximo libro bajo amenaza.
+    </string>
 </resources>
