@@ -2,7 +2,7 @@
     <string name="app_name">LibreriaOnline</string>
     <string name="home">Inicio</string>
     <string name="list">Listado</string>
-    <string name="credits">Creditos</string>
+    <string name="credits">Aplicación desarrollada por: Javier Rojas</string>
 
     <string name="resplandor_short_description">El Resplandor es una novela de Stephen King que sigue a Jack Torrance,
         un hombre que acepta un trabajo como vigilante de invierno en un hotel aislado.

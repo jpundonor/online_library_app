@@ -28,15 +28,15 @@
         tools:layout="@layout/fragment_details">
         <argument
             android:name="title"
-            app:argType="String"
+            app:argType="string"
             />
         <argument
-            android:name="details"
-            app:argType="String"
+            android:name="description"
+            app:argType="string"
             />
         <argument
             android:name="img"
-            app:argType="String"
+            app:argType="integer"
             />
     </fragment>
 
